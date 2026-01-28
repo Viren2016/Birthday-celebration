@@ -11,9 +11,7 @@ function Countdown({ onBirthdayReached, birthdayReached }) {
 
   useEffect(() => {
     // If birthday already reached, don't start the countdown
-    if (birthdayReached) {
-      return;
-    }
+    
 
     // ═══════════════════════════════════════════════════════════════
     // 🎂 SET YOUR BIRTHDAY DATE & TIME HERE 🎂
